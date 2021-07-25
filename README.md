@@ -9,8 +9,8 @@
  
 
 **效果预览**
+![image-20210725220402218](https://i.loli.net/2021/07/25/O3Jlj1xcEIqUgFi.png)
 
-![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image002.jpg)
 
 ​                图1 效果
 
@@ -22,13 +22,16 @@
 
 ![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image004.jpg)
 
+
 ​                     																    图2 进行特征点匹配的模板
 
 
 
  
+ 
 
-![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image006.jpg)
+![image-20210725220501619](https://i.loli.net/2021/07/25/Bt5L8AaKZqyXWlC.png)
+
 
 ​                  图3 校正效果，左边是原图，右边是校正后的图片standard.jpg
 
@@ -37,8 +40,7 @@
 得到了校正的图片之后,我们要把文字区域截取出来。
 
 第一步，我根据身份证的文字信息分布特征制作了一张图片(mask.jpg)。可以清晰看见，下左图的空白处正是对应了是身份证的关键信息处。这里我故意将空白区域设计得大一点，下面会讲解原因。
-
-![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image008.jpg)
+![](https://i.loli.net/2021/07/25/2wKukgWfiqZ3NVj.png)
 
 ​                          图4 特殊图片 mask.jpg
 
@@ -51,8 +53,8 @@
 
 
 
+![image-20210725220656035](https://i.loli.net/2021/07/25/2wKukgWfiqZ3NVj.png)
 
-![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image010.jpg)
 
 ​                    																		图5 截取文字区域图片效果图
 
@@ -68,6 +70,7 @@
 
 ## 4.目录结构
 
-![img](https://gitee.com/chzarles/images/raw/master/imgs/clip_image012.jpg)
+![](https://i.loli.net/2021/07/25/gpQ9Cahk21GE7q3.png)
+
 
 ​            																			      图6 项目目录结构
